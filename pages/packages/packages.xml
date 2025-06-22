@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="packages.xslt"?>
+<packagesPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packages.xsd">
+  <header>
+    <title>Packages</title>
+    <description>Choose the perfect package for your adventure!</description>
+  </header>
+  <packageGroups>
+    <packageGroup>
+      <groupTitle>Family Packages</groupTitle>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Family Fun Pack</alt>
+        <name>Family Fun Pack</name>
+        <features>
+          <feature>4 Entry Tickets</feature>
+          <feature>Free Lunch Vouchers</feature>
+          <feature>Photo Pass</feature>
+          <feature>Fast Track Access</feature>
+        </features>
+        <price>$120</price>
+      </package>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Kids' Day Out</alt>
+        <name>Kids' Day Out</name>
+        <features>
+          <feature>1 Child Entry</feature>
+          <feature>Snack Pack</feature>
+          <feature>Meet &amp; Greet with Mascots</feature>
+          <feature>Free Toy</feature>
+        </features>
+        <price>$35</price>
+      </package>
+    </packageGroup>
+    <packageGroup>
+      <groupTitle>Individu Packages</groupTitle>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Adventure Seeker</alt>
+        <name>Adventure Seeker</name>
+        <features>
+          <feature>Unlimited Rides</feature>
+          <feature>1 Meal Included</feature>
+          <feature>Souvenir Gift</feature>
+          <feature>Priority Entry</feature>
+        </features>
+        <price>$80</price>
+      </package>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Solo Explorer</alt>
+        <name>Solo Explorer</name>
+        <features>
+          <feature>1 Entry Ticket</feature>
+          <feature>Snack Voucher</feature>
+          <feature>Photo Pass</feature>
+        </features>
+        <price>$40</price>
+      </package>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Couple's Escape</alt>
+        <name>Couple's Escape</name>
+        <features>
+          <feature>2 Entry Tickets</feature>
+          <feature>Dinner for Two</feature>
+          <feature>VIP Lounge Access</feature>
+          <feature>Complimentary Photos</feature>
+        </features>
+        <price>$95</price>
+      </package>
+    </packageGroup>
+    <packageGroup>
+      <groupTitle>Seasons Packages</groupTitle>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Summer Splash</alt>
+        <name>Summer Splash</name>
+        <features>
+          <feature>Entry Ticket</feature>
+          <feature>Water Park Access</feature>
+          <feature>Free Ice Cream</feature>
+          <feature>Souvenir Towel</feature>
+        </features>
+        <price>$60</price>
+      </package>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Winter Wonderland</alt>
+        <name>Winter Wonderland</name>
+        <features>
+          <feature>Entry Ticket</feature>
+          <feature>Hot Chocolate Voucher</feature>
+          <feature>Snow Show Access</feature>
+          <feature>Photo with Santa</feature>
+        </features>
+        <price>$65</price>
+      </package>
+      <package>
+        <img>img/global-header.jpg</img>
+        <alt>Spring Bloom</alt>
+        <name>Spring Bloom</name>
+        <features>
+          <feature>Entry Ticket</feature>
+          <feature>Flower Garden Tour</feature>
+          <feature>Picnic Set</feature>
+          <feature>Photo Pass</feature>
+        </features>
+        <price>$55</price>
+      </package>
+    </packageGroup>
+  </packageGroups>
+</packagesPage>

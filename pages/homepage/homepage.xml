@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="homepage.xslt"?>
+<homepage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="homepage.xsd">
+  <header>
+    <title>Homepage</title>
+    <description>Welcome to Our Theme Park! Explore the best rides, delicious food, exciting shows, and more!</description>
+  </header>
+  <features>
+    <feature>
+      <icon>🎢</icon>
+      <title>Thrilling Rides</title>
+      <desc>Experience adrenaline-pumping roller coasters and family-friendly attractions for all ages.</desc>
+    </feature>
+    <feature>
+      <icon>🍔</icon>
+      <title>Delicious Food</title>
+      <desc>Enjoy a wide variety of tasty treats, from classic snacks to gourmet meals and desserts.</desc>
+    </feature>
+    <feature>
+      <icon>🎉</icon>
+      <title>Live Shows</title>
+      <desc>Be amazed by daily performances, parades, and special seasonal events throughout the year.</desc>
+    </feature>
+    <feature>
+      <icon>🎁</icon>
+      <title>Exclusive Packages</title>
+      <desc>Choose from family, individual, and seasonal packages to make your visit unforgettable.</desc>
+    </feature>
+  </features>
+  <cta>
+    <heading>Ready for an Adventure?</heading>
+    <buttonLink>packages.html</buttonLink>
+    <buttonText>View Packages</buttonText>
+  </cta>
+  <events>
+    <event>
+      <icon>🌟</icon>
+      <title>Summer Night Parade</title>
+      <desc>Join us every Saturday night for a magical parade with lights, music, and your favorite characters!</desc>
+      <date>Every Saturday, 7:00 PM</date>
+    </event>
+    <event>
+      <icon>👻</icon>
+      <title>Spooky Halloween Fest</title>
+      <desc>Enjoy haunted houses, trick-or-treating, and costume contests all October long!</desc>
+      <date>October 1 - 31</date>
+    </event>
+    <event>
+      <icon>🎅</icon>
+      <title>Winter Wonderland</title>
+      <desc>Celebrate the holidays with snow shows, festive treats, and a visit from Santa!</desc>
+      <date>December 10 - January 2</date>
+    </event>
+  </events>
+  <info>
+    <item><label>Opening Hours:</label>9:00 AM – 10:00 PM, 7 days a week</item>
+    <item><label>Location:</label>123 Theme Park Ave, Fun City</item>
+    <item><label>Parking:</label>Free parking available for all guests</item>
+    <item><label>Accessibility:</label>Our park is accessible for all visitors</item>
+  </info>
+  <newsletter>
+    <heading>Stay Updated!</heading>
+    <desc>Subscribe to our newsletter for the latest news, offers, and events.</desc>
+  </newsletter>
+</homepage>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="homepage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string"/>
+              <xs:element name="description" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="features">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="feature" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="icon" type="xs:string"/>
+                    <xs:element name="title" type="xs:string"/>
+                    <xs:element name="desc" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="heading" type="xs:string"/>
+              <xs:element name="buttonLink" type="xs:string"/>
+              <xs:element name="buttonText" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="events">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="event" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="icon" type="xs:string"/>
+                    <xs:element name="title" type="xs:string"/>
+                    <xs:element name="desc" type="xs:string"/>
+                    <xs:element name="date" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="label" type="xs:string"/>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:string"/>
+                    </xs:simpleContent>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="newsletter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="heading" type="xs:string"/>
+              <xs:element name="desc" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
